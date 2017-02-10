@@ -560,7 +560,7 @@ a:hover {
 ::-moz-selection,
 ::selection {
   color: #141414;
-  background: #1d9cf7;
+  background: #eebaaa;
   text-shadow: none;
 }
 header,
@@ -594,14 +594,14 @@ header nav {
   z-index: 2;
 }
 header a {
-  color: #1d9cf7;
+  color: #eebaaa;
   text-decoration: none;
 }
 header a:hover {
   text-decoration: underline;
 }
 header h1 {
-  color: #1d9cf7;
+  color: #eebaaa;
   font-family: 'Open Sans', sans-serif;
   font-size: 4.5rem;
   font-weight: 400;
@@ -691,7 +691,7 @@ main a.article:last-of-type article:after {
   padding-bottom: 20px;
 }
 main a.article:hover h2 {
-  color: #1d9cf7;
+  color: #eebaaa;
   -webkit-transition: color 0.3s ease;
   -moz-transition: color 0.3s ease;
   -o-transition: color 0.3s ease;
@@ -762,7 +762,7 @@ main article.full a {
   text-decoration: underline;
 }
 main article.full a:hover {
-  color: #1d9cf7;
+  color: #eebaaa;
 }
 main article.full p + img {
   margin-top: 0;
@@ -779,7 +779,7 @@ main article.full blockquote {
   box-sizing: border-box;
   margin: 1.6em 0 1.6em 0;
   padding: 0 0 0 1.6em;
-  border-left: #1d9cf7 0.4em solid;
+  border-left: #fafafa 0.4em solid;
 }
 main article.full blockquote footer {
   text-align: left;
@@ -871,10 +871,10 @@ main article.full form .form-column textarea {
   width: 100%;
 }
 main article.full form .form-column button {
-  background: #1d9cf7;
-  border: 1px solid #0777c7;
-  -webkit-box-shadow: inset 0 0 0 1px #1d9cf7, 0 1px 3px #737373;
-  box-shadow: inset 0 0 0 1px #1d9cf7, 0 1px 3px #737373;
+  background: #eebaaa;
+  border: 1px solid #dc7556;
+  -webkit-box-shadow: inset 0 0 0 1px #eebaaa, 0 1px 3px #737373;
+  box-shadow: inset 0 0 0 1px #eebaaa, 0 1px 3px #737373;
   border-radius: 2px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -886,7 +886,7 @@ main article.full form .form-column button {
   padding: 0.1em 0.6em;
   white-space: nowrap;
   text-transform: uppercase;
-  text-shadow: 0 -1px 1px #0777c7;
+  text-shadow: 0 -1px 1px #dc7556;
 }
 main article.full .btn {
   border: none;
@@ -917,17 +917,17 @@ main article.full .btn:after {
   transition: all 0.3s;
 }
 main article.full .small-button {
-  background: #1d9cf7;
+  background: #eebaaa;
   border-radius: 2px;
-  -webkit-box-shadow: 0 2px #0777c7;
-  box-shadow: 0 2px #0777c7;
+  -webkit-box-shadow: 0 2px #dc7556;
+  box-shadow: 0 2px #dc7556;
   color: #fafafa;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.4rem;
   font-weight: 700;
   line-height: 1.6;
   margin: 0;
-  border: 1px solid #0777c7;
+  border: 1px solid #dc7556;
   padding: 0 5px;
   white-space: nowrap;
 }
@@ -936,28 +936,28 @@ main article.full .small-button:before {
   top: 0;
 }
 main article.full .small-button:hover {
-  -webkit-box-shadow: 0 2px #0777c7;
-  box-shadow: 0 2px #0777c7;
+  -webkit-box-shadow: 0 2px #dc7556;
+  box-shadow: 0 2px #dc7556;
   top: 1px;
 }
 main article.full .small-button:hover:before {
   left: 80%;
 }
 main article.full .small-button:active {
-  -webkit-box-shadow: 0 0 #0777c7;
-  box-shadow: 0 0 #0777c7;
+  -webkit-box-shadow: 0 0 #dc7556;
+  box-shadow: 0 0 #dc7556;
   top: 2px;
 }
 main article.full .simple:hover {
-  -webkit-box-shadow: inset 0 0 20px 1px #7fc7fb, 1px 1px 3px #55b5f9;
-  box-shadow: inset 0 0 20px 1px #7fc7fb, 1px 1px 3px #55b5f9;
+  -webkit-box-shadow: inset 0 0 20px 1px #f5d8d0, 1px 1px 3px #f2cbc0;
+  box-shadow: inset 0 0 20px 1px #f5d8d0, 1px 1px 3px #f2cbc0;
 }
 main article.full .big-button {
-  background: #1d9cf7;
+  background: #eebaaa;
   color: #fafafa;
   font-family: 'Open Sans', sans-serif;
-  -webkit-box-shadow: 0 6px #0777c7;
-  box-shadow: 0 6px #0777c7;
+  -webkit-box-shadow: 0 6px #dc7556;
+  box-shadow: 0 6px #dc7556;
   -webkit-transition: none;
   -moz-transition: none;
   -o-transition: none;
@@ -970,8 +970,8 @@ main article.full .big-button {
 }
 main article.full .big-button:hover {
   color: #fafafa;
-  -webkit-box-shadow: 0 4px #0777c7;
-  box-shadow: 0 4px #0777c7;
+  -webkit-box-shadow: 0 4px #dc7556;
+  box-shadow: 0 4px #dc7556;
   padding: 25px 80px;
   top: 2px;
 }
@@ -980,8 +980,8 @@ main article.full .big-button:hover:before {
 }
 main article.full .big-button:active {
   color: #fafafa;
-  -webkit-box-shadow: 0 0 #0777c7;
-  box-shadow: 0 0 #0777c7;
+  -webkit-box-shadow: 0 0 #dc7556;
+  box-shadow: 0 0 #dc7556;
   padding: 25px 80px;
   top: 6px;
 }
@@ -1001,17 +1001,17 @@ main article.full .round-button {
 }
 main article.full .round-button:hover {
   border: 3px solid $link-article-color;
-  color: #1d9cf7;
+  color: #eebaaa;
 }
 main article.full .punch-button {
-  background: #1d9cf7;
-  border-top: 1px solid #0777c7;
-  border-right: 1px solid #033050;
-  border-bottom: 1px solid #022035;
-  border-left: 1px solid #033050;
+  background: #eebaaa;
+  border-top: 1px solid #dc7556;
+  border-right: 1px solid #662815;
+  border-bottom: 1px solid #441a0e;
+  border-left: 1px solid #662815;
   border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 10px 1px #55b5f9, 0 1px 0 #022035, 0 6px 0 #033050, 0 8px 4px 1px #737373;
-  box-shadow: inset 0 1px 10px 1px #55b5f9, 0 1px 0 #022035, 0 6px 0 #033050, 0 8px 4px 1px #737373;
+  -webkit-box-shadow: inset 0 1px 10px 1px #f2cbc0, 0 1px 0 #441a0e, 0 6px 0 #662815, 0 8px 4px 1px #737373;
+  box-shadow: inset 0 1px 10px 1px #f2cbc0, 0 1px 0 #441a0e, 0 6px 0 #662815, 0 8px 4px 1px #737373;
   color: #fafafa;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.8rem;
@@ -1022,7 +1022,7 @@ main article.full .punch-button {
   padding: 0.4em;
   width: 12em;
   text-align: center;
-  text-shadow: 0 -1px 1px #0777c7;
+  text-shadow: 0 -1px 1px #dc7556;
   text-transform: uppercase;
   -webkit-background-clip: padding-box;
 }
@@ -1039,25 +1039,25 @@ main article.full .punch-button hr:after {
 }
 main article.full .punch-button span {
   display: block;
-  color: #033050;
+  color: #662815;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.4rem;
   font-style: italic;
   letter-spacing: 1px;
   text-align: center;
-  text-shadow: 0 -1px 1px #55b5f9;
+  text-shadow: 0 -1px 1px #f2cbc0;
   width: 80%;
   margin: 0 auto;
   text-transform: none;
 }
 main article.full .punch-button:hover {
-  -webkit-box-shadow: inset 0 0 20px 1px #7fc7fb, 0 1px 0 #022035, 0 6px 0 #033050, 0 8px 4px 1px #737373;
-  box-shadow: inset 0 0 20px 1px #7fc7fb, 0 1px 0 #022035, 0 6px 0 #033050, 0 8px 4px 1px #737373;
+  -webkit-box-shadow: inset 0 0 20px 1px #f5d8d0, 0 1px 0 #441a0e, 0 6px 0 #662815, 0 8px 4px 1px #737373;
+  box-shadow: inset 0 0 20px 1px #f5d8d0, 0 1px 0 #441a0e, 0 6px 0 #662815, 0 8px 4px 1px #737373;
   cursor: pointer;
 }
 main article.full .punch-button:active {
-  -webkit-box-shadow: inset 0 1px 10px 1px #55b5f9, 0 1px 0 #022035, 0 2px 0 #033050, 0 4px 3px 0 #737373;
-  box-shadow: inset 0 1px 10px 1px #55b5f9, 0 1px 0 #022035, 0 2px 0 #033050, 0 4px 3px 0 #737373;
+  -webkit-box-shadow: inset 0 1px 10px 1px #f2cbc0, 0 1px 0 #441a0e, 0 2px 0 #662815, 0 4px 3px 0 #737373;
+  box-shadow: inset 0 1px 10px 1px #f2cbc0, 0 1px 0 #441a0e, 0 2px 0 #662815, 0 4px 3px 0 #737373;
   margin-top: 8px;
 }
 main section#comments {
@@ -1188,7 +1188,7 @@ dl dd {
 }
 code,
 tt {
-  background: #1d9cf7;
+  background: #eebaaa;
   border-radius: 0.2em;
   color: #fafafa;
   font-family: 'Fira Mono', monospace, sans-serif;
